@@ -2,13 +2,12 @@
  * @Author: xinxu
  * @Date: 2023-01-07 16:33:20
  * @LastEditors: xinxu
- * @LastEditTime: 2023-01-07 17:20:02
+ * @LastEditTime: 2023-01-07 18:16:58
  * @FilePath: /eslint-plugin-custom/tests/lib/rules/no-console-time.js
  */
 "user strict";
 
 let rule = require("../../../lib/rules/no-console-time");
-
 let RuleTester = require("eslint").RuleTester;
 
 let ruleTester = new RuleTester({

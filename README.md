@@ -1,3 +1,11 @@
+<!--
+ * @Author: xinxu
+ * @Date: 2023-01-07 14:33:55
+ * @LastEditors: xinxu
+ * @LastEditTime: 2023-01-07 18:32:27
+ * @FilePath: /eslint-plugin-custom/README.md
+-->
+
 # eslint-plugin-custom
 
 customize eslint plugin
@@ -22,27 +30,24 @@ Add `custom` to the plugins section of your `.eslintrc` configuration file. You 
 
 ```json
 {
-    "plugins": [
-        "custom"
-    ]
+  "plugins": ["customs"]
 }
 ```
-
 
 Then configure the rules you want to use under the rules section.
 
 ```json
 {
-    "rules": {
-        "custom/rule-name": 2
-    }
+  "rules": {
+    "customs/rule-name": 2
+  }
 }
 ```
 
 ## Rules
 
 <!-- begin auto-generated rules list -->
+
 TODO: Run eslint-doc-generator to generate the rules list.
+
 <!-- end auto-generated rules list -->
-
-

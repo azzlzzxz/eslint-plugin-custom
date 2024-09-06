@@ -11,10 +11,12 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2019,
     sourceType: "module",
+    requireConfigFile: false,
   },
   env: {
     browser: true,
     node: true,
+    
     commonjs: true,
     es6: true,
   },

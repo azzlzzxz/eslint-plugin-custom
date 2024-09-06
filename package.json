@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-customs",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "customize eslint plugin",
   "keywords": [
     "eslint",
@@ -18,12 +18,14 @@
     "update:eslint-docs": "eslint-doc-generator"
   },
   "dependencies": {
-    "@babel/core": "^7.25.2",
-    "@babel/eslint-parser": "^7.25.1",
     "@typescript-eslint/parser": "^8.4.0",
     "requireindex": "^1.2.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "@babel/preset-react": "^7.24.7",
+    "@babel/eslint-parser": "^7.25.1",
     "eslint": "^8.19.0",
     "eslint-doc-generator": "^1.0.0",
     "eslint-plugin-eslint-plugin": "^5.0.0",

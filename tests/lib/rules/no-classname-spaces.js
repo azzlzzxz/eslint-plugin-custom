@@ -24,7 +24,7 @@ return  <div className="      222
 
 const ruleTester = new RuleTester({
   parserOptions,
-  // eslint-disable-next-line node/no-unpublished-require
+  // eslint-disable-next-line node/no-unpublished-require, node/no-missing-require
   parser: require.resolve('@typescript-eslint/parser'),
 });
 

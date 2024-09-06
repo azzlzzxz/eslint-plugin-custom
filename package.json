@@ -18,6 +18,9 @@
     "update:eslint-docs": "eslint-doc-generator"
   },
   "dependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/eslint-parser": "^7.25.1",
+    "@typescript-eslint/parser": "^8.4.0",
     "requireindex": "^1.2.0"
   },
   "devDependencies": {

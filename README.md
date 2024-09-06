@@ -1,11 +1,3 @@
-<!--
- * @Author: xinxu
- * @Date: 2023-01-07 14:33:55
- * @LastEditors: xinxu
- * @LastEditTime: 2023-01-07 18:32:27
- * @FilePath: /eslint-plugin-custom/README.md
--->
-
 # eslint-plugin-custom
 
 customize eslint plugin
